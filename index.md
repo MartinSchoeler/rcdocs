@@ -1,7 +1,7 @@
 # Rocket.Chat Docs
 ## What would you like to do?
 
-* [Learn how to use Rocket.Chat](/4.%20User%20Guides)
+* [Learn how to use Rocket.Chat]({{ site.url }}/4.%20User%20Guides)
 * [Get support](/2.%20Getting%20Support)
 * [Install Rocket.Chat](/3.%20Installation)
 * [Administer your installation](/5.%20Administrator%20Guides)
