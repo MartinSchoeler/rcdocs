@@ -26,13 +26,13 @@ If you need full control of your deployment, here are some guides for specific e
 
 ## Manual Installation
 
-- [CentOS](../installation/manual-installation/centos/)
-- [Debian](../installation/manual-installation/debian/)
-- [FreeBSD](../installation/manual-installation/freebsd/)
-- [Ubuntu](../installation/manual-installation/ubuntu/)
-- [Windows Server](../installation/manual-installation/windows-server/)
+- [CentOS](../manual-installation/centos/)
+- [Debian](../manual-installation/debian/)
+- [FreeBSD](../manual-installation/freebsd/)
+- [Ubuntu](../manual-installation/ubuntu/)
+- [Windows Server](../manual-installation/windows-server/)
 
 ## Automation Tools
 
-- [Ansible](../installation/automation-tools/ansible/)
-- [Vagrant](../installation/automation-tools/vagrant/)
+- [Ansible](../automation-tools/ansible/)
+- [Vagrant](../automation-tools/vagrant/)
