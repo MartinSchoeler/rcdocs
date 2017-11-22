@@ -1,0 +1,8 @@
+
+{% if site.url contains ':' %}
+  {% assign path = site.url | append: '/' %}
+{% else %}
+  {% assign path = site.url %}
+{% endif %}
+
+{% include level.html level=site.data.toc path=path %}
