@@ -1,8 +1,6 @@
 
-{% if site.url contains ':' %}
-  {% assign path = site.url | append: '/' %}
-{% else %}
-  {% assign path = site.url %}
-{% endif %}
+{% assign path = site.url | append: '/' %}
+
+<a href="{{ site.url }}">Documentation</a>
 
 {% include level.html level=site.data.toc path=path %}
