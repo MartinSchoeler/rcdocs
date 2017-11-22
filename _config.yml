@@ -1,5 +1,6 @@
-title: "Rocket.Chat Docs"
-description:
+title: "Rocket.Chat Documentation"
+description: Rocket.Chat user, admin, API, integration, plugin and contributing documentation.
+
 url: /docs/
 
 # bump if alterting styles
@@ -18,4 +19,3 @@ whitelist:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - README.md
