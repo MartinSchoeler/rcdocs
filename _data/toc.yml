@@ -1,7 +1,10 @@
 - contributing
 - installation:
-    - automation-tools
-    - docker-containers
+  - automation-tools
+  - docker-containers
+  - manual-installation:
+    - centos
+    - debian      
 - getting-support
 - user-guides
 - administrator-guides
