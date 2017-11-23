@@ -1,12 +1,12 @@
 - contributing
-- installation:
-  - automation-tools
-  - docker-containers
-  - manual-installation:
-    - centos
-    - debian      
-- getting-support
-- user-guides
-- administrator-guides
-- developer-guides
-- community-cookbook
+- Installation:
+  - Automation tools
+  - Docker containers
+  - Manual Installation:
+    - Centos
+    - Debian
+- Getting support
+- User guides
+- Administrator guides
+- Developer guides
+- Community cookbook

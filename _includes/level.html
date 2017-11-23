@@ -9,7 +9,8 @@
       {% break %}
     {% endfor %}
     
-    {% assign path = include.path | append: name | append: '/' %}
+    {% assign newpath = name | slugify %}
+    {% assign path = include.path | append: newpath | append: '/' %}
     {% assign level = entry[name] %}
     
     <a href="{{ path }}">{{ name }}</a>
@@ -18,7 +19,8 @@
     
   {% else %}
 
-    {% assign path = include.path | append: entry | append: '/' %}
+    {% assign newpath = entry | slugify %}
+    {% assign path = include.path | append: newpath | append: '/' %}
     <a href="{{ path }}">{{ entry }}</a>
 
   {% endif %}
